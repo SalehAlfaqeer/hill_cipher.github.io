@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body h1, h4 {
+    margin: 15px;
+}
+
+#msg, #key {
+    display: block;
+    margin: 15px auto;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 10px;
+    width: 15rem;
+    border: 1px solid #3447ee;
+    border-radius: 5px;
+    outline: none;
+}
+#encRadio, #decRadio {
+    background: #3447ee;
+}
+#btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    outline: none;
+    background: #3447ee;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#res {
+    width: 25rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #3447ee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#result {
+    line-height: 120px;
+}
